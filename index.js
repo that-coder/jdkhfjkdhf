@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { shared, env } from "@appblocks/node-sdk";
 import bcrypt from "bcrypt";
 
@@ -88,3 +89,22 @@ const sample_password_recovery_fn = async (req, res) => {
 };
 
 export default sample_password_recovery_fn;
+=======
+
+
+const password_recovery_fn = async (req, res) => {
+
+  // health check
+  if (req.params["health"] === "health") {
+    res.write(JSON.stringify({success: true, msg: "Health check success"}))
+    res.end()
+  }
+
+  // Add your code here
+  res.write(JSON.stringify({success: true, msg: `Hello password_recovery_fn`}))
+  res.end()
+  
+}
+
+export default password_recovery_fn
+>>>>>>> 762f2b9 (initial commit)

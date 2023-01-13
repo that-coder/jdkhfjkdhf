@@ -1,13 +1,1 @@
-{
-  "name": "password_recovery_fn",
-  "type": "function",
-  "source": {
-    "https": "https://github.com/Digambaran/password_recovery_fn",
-    "ssh": "git@github.com:Digambaran/password_recovery_fn.git"
-  },
-  "language": "nodejs",
-  "start": "node index.js",
-  "build": "",
-  "postPull": "npm i",
-  "standAloneBlock": false
-}
+{"name":"jdkhfjkdhf","type":"function","source":{"https":"https://github.com/that-coder/jdkhfjkdhf","ssh":"git@github.com:that-coder/jdkhfjkdhf.git"},"language":"nodejs","start":"node index.js","build":"","postPull":"npm i","standAloneBlock":false}

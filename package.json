@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "sample_password_recovery_fn",
   "version": "0.0.1",
   "description": "",
@@ -18,3 +19,20 @@
     "nanoid": "^4.0.0"
   }
 }
+=======
+    "name": "password_recovery_fn",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js --port=3000"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    "express": "^4.17.3"
+    }
+  }
+>>>>>>> 762f2b9 (initial commit)
